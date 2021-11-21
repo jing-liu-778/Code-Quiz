@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .containerBlock{
+      padding-top: 50px;
+      width: 100%;
+  }
+  /* make the contianer in center */
+ .container {
+    /* padding:100px; */
+    /* margin:0px; */
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    max-width: 500px;
+    min-width: 375px;
+    margin: auto;
+} 
+
+/* make button inline */
+.inline-btn{
+    display: flex;
+    justify-content: space-between;
+
+}
+.inline-btn button{
+    margin:10px;
+}
+
+/* timer on right top */
+.timer{
+    position: fixed;
+    right: 2rem;
+    top: 2rem;
+}
+
+.showAnswer {
+    max-width: 500px;
+    min-width: 375px;
+    border-top: 1px solid;
+    padding-top: .5rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+.start-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.answerWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+/* hide section */
+.hide{
+    display: none;
+}
+
+.scoreDisplay {
+    margin-bottom: 1rem;
+}
+
+.initialWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.initialWrapper button {
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 1rem;
+    padding: 0.7rem; 
+}
+#score-list {
+    background-color: rgba(202, 0, 202, .5); 
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+
+#score-list li{
+    margin-left: 2.5rem;
+}
+button{
+    /* display:inline-block; */
+    background: purple;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    letter-spacing: 0.21px;
+    line-height: 0px;
+    /* max-width: 255px; */
+    padding: 1rem .5rem;
+    text-align: center;
+    transition-duration: 0.15s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+    margin-top: 0.6em;
+}
